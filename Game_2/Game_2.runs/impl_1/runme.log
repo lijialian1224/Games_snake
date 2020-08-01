@@ -1,0 +1,276 @@
+
+*** Running vivado
+    with args -log HDMI_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source HDMI_top.tcl -notrace
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source HDMI_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Air/Desktop/FPGA/RGB2DVI_IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+Command: link_design -top HDMI_top -part xc7s15ftgb196-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.dcp' for cell 'rgb2dvi'
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'rgb2dvi/U0'
+Finished Parsing XDC File [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'rgb2dvi/U0'
+Parsing XDC File [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_10/inst'
+Finished Parsing XDC File [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_10/inst'
+Parsing XDC File [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_10/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1125.797 ; gain = 469.313
+Finished Parsing XDC File [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_10/inst'
+Parsing XDC File [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc]
+WARNING: [Vivado 12-584] No ports matched 'up'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'up'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'left'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'left'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'right'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'right'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'down'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'down'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sudu'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sudu'. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/constrs_1/new/Game.xdc]
+Parsing XDC File [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'rgb2dvi/U0'
+Finished Parsing XDC File [c:/Users/Air/Desktop/FPGA/Game_2/Game_2.srcs/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'rgb2dvi/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1125.797 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+14 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1125.797 ; gain = 802.801
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s15'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1125.797 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+Ending Cache Timing Information Task | Checksum: 12ce4d355
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1141.488 ; gain = 15.691
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 13c0a62c5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 3 cells and removed 8 cells
+INFO: [Opt 31-1021] In phase Retarget, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 6 inverter(s) to 15 load pin(s).
+Phase 2 Constant propagation | Checksum: e3fac4c0
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.250 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 48 cells and removed 259 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1919d31fa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.286 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Sweep, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG rgb2dvi/U0/ClockGenInternal.ClockGenX/PixelClk_BUFG_inst to drive 8 load(s) on clock net rgb2dvi/U0/PixelClkIO
+INFO: [Opt 31-194] Inserted BUFG rgb2dvi/U0/ClockGenInternal.ClockGenX/SerialClk_BUFG_inst to drive 8 load(s) on clock net rgb2dvi/U0/SerialClkIO
+INFO: [Opt 31-193] Inserted 2 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 104c0a72f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.302 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 2 cells of which 2 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 104c0a72f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.311 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 104c0a72f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.316 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               3  |               8  |                                              2  |
+|  Constant propagation         |              48  |             259  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              1  |
+|  BUFG optimization            |               2  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1263.938 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1d3d49f08
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.345 . Memory (MB): peak = 1263.938 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1d3d49f08
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1263.938 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1d3d49f08
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1263.938 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1263.938 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1d3d49f08
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+37 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Air/Desktop/FPGA/Game_2/Game_2.runs/impl_1/HDMI_top_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file HDMI_top_drc_opted.rpt -pb HDMI_top_drc_opted.pb -rpx HDMI_top_drc_opted.rpx
+Command: report_drc -file HDMI_top_drc_opted.rpt -pb HDMI_top_drc_opted.pb -rpx HDMI_top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Air/Desktop/FPGA/Game_2/Game_2.runs/impl_1/HDMI_top_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s15'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+CRITICAL WARNING: [DRC AVAL-46] v7v8_mmcm_fvco_rule1: The current computed target frequency, FVCO, is out of range for cell rgb2dvi/U0/ClockGenInternal.ClockGenX/GenMMCM.DVI_ClkGenerator. The computed FVCO is 500.000 MHz. The valid FVCO range for speed grade -1 is 600MHz to 1200MHz. The cell attribute values used to compute FVCO are CLKFBOUT_MULT_F = 5.000, CLKIN1_PERIOD = 10.00000, and DIVCLK_DIVIDE = 1 (FVCO = 1000 * CLKFBOUT_MULT_F/(CLKIN1_PERIOD * DIVCLK_DIVIDE)).
+This violation may be corrected by:
+  1. The timer uses timing constraints for clock period or clock frequency that affect CLKIN1 to set cell attribute CLKIN1_PERIOD, over-riding any previous value. This may already be in place and, if so this violation will be resolved once Timing is run.  Otherwise, consider modifying timing constraints to adjust the CLKIN1_PERIOD and bring FVCO into the allowed range.
+  2. In the absence of timing constraints that affect CLKIN1, consider modifying the cell CLKIN1_PERIOD to bring FVCO into the allowed range.
+  3. If CLKIN1_PERIOD is satisfactory, modify the CLKFBOUT_MULT_F or DIVCLK_DIVIDE cell attributes to bring FVCO into the allowed range.
+  4. The MMCM configuration may be dynamically modified by use of DRP which is recognized by an ACTIVE signal on DCLK pin.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Critical Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1263.938 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1711a58a7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1263.938 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1263.938 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (58) is greater than number of available sites (50).
+The following are banks with available pins: 
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 14 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     9 | LVCMOS33(1)  TMDS_33(8)                                                |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   100 |     9 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | TMDS_Tx_Clk_P        | TMDS_33         | IOB_X1Y26            | G4                   |                      |
+|        | TMDS_Tx_Clk_N        | TMDS_33         | IOB_X1Y25            | F4                   |                      |
+|        | TMDS_Tx_Data_P[0]    | TMDS_33         | IOB_X1Y32            | G1                   |                      |
+|        | TMDS_Tx_Data_N[0]    | TMDS_33         | IOB_X1Y31            | F1                   |                      |
+|        | TMDS_Tx_Data_P[1]    | TMDS_33         | IOB_X1Y30            | E2                   |                      |
+|        | TMDS_Tx_Data_N[1]    | TMDS_33         | IOB_X1Y29            | D2                   |                      |
+|        | TMDS_Tx_Data_P[2]    | TMDS_33         | IOB_X1Y28            | D1                   |                      |
+|        | TMDS_Tx_Data_N[2]    | TMDS_33         | IOB_X1Y27            | C1                   |                      |
+|        | clk_100MHz           | LVCMOS33        | IOB_X1Y24            | H4                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 172f3a9d6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.385 . Memory (MB): peak = 1263.938 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 172f3a9d6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.385 . Memory (MB): peak = 1263.938 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 172f3a9d6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.388 . Memory (MB): peak = 1263.938 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 10 Warnings, 11 Critical Warnings and 4 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 31 17:15:27 2020...
